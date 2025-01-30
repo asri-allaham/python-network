@@ -1,0 +1,4 @@
+you need edit:
+the server side IP to your Lan Ip
+for WAN use Radmin VPN IP...
+and on the user side (client) use the same Ip and port if needed
