@@ -69,7 +69,7 @@ def start_client():
     global window
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
-        client_socket.connect(('192.168.43.118', 12345))  
+        client_socket.connect(('xx.xxx.xxx', 12345))  
     
     except Exception as e:
         messagebox.showerror("Connection Error", f"Unable to connect to server: {e}")

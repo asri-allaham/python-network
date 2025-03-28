@@ -36,7 +36,7 @@ def broadcast(message, sender_socket):
                 client_socket.close()
 def start_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('26.128.12.159', 12345))
+    server_socket.bind(('xx.xxx.xxx.x', 12345))
     server_socket.listen(5)
     print("Server is listening for connections...")
 
